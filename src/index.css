@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+.arc {
+  --a: 240deg; /* control the progression */
+
+  width: 1450px;
+  aspect-ratio: 1;
+  padding: 450px; /* the boder thickness */
+  box-sizing: border-box;
+  border-radius: 50%;
+
+  mask: linear-gradient(#0000 0 0) content-box intersect,
+    conic-gradient(#000 var(--a), #0000 0);
+}
+
+.fullarc {
+  --a: 360deg; /* control the progression */
+
+  /* width: 1150px; */
+  aspect-ratio: 1;
+  padding: 12%; /* the boder thickness */
+  box-sizing: border-box;
+  border-radius: 50%;
+
+  mask: linear-gradient(#0000 0 0) content-box intersect,
+    conic-gradient(#000 var(--a), #0000 0);
+}
+
+.shadows-into-light-regular {
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
