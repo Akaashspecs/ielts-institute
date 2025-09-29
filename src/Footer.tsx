@@ -9,12 +9,12 @@ const Footer = () => {
         <div className=" md:min-w-[500px] flex flex-col items-center gap-6 lg:gap-8 ">
           <div className="text-white text-4xl text-center caveat-cursive">
             {" "}
-            'HOUSE OF FRESHNESS'
+            'WROLD OF IELTS'
           </div>
           <img
-            src="/bakery-logo.png"
+            src="/ielts.jpg"
             alt="logo"
-            className="h-[120px] w-[120px] bg-red-200 rounded-full"
+            className="h-[80px] bg-red-200 rounded-full"
           />
           <div>
             <div className="text-white text-4xl ">FOLLOW US</div>

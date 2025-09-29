@@ -2,7 +2,7 @@ import { heroData, ielts } from "./data";
 
 const Banner = () => {
   return (
-    <div className="relative  z-20 bg-red-200">
+    <div className="relative  z-20 ">
       <div className="bg-white w-fit flex rounded-3xl  relative">
         <div className="w-[80px] relati h-[70%] bg-cyan-100 flex flex-col items-center text-4xl gap-5 font-extrabold pt-5">
           {ielts.map((item) => (

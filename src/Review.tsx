@@ -2,10 +2,10 @@ import { reviews } from "./data";
 
 const Review = () => {
   return (
-    <div className="flex flex-col justify-center p-14">
+    <div className="flex flex-col justify-center p-7 lg:p-14">
       <h3 className=" text-center text-[50px]">Review</h3>
 
-      <div className="flex justify-center gap-10 ">
+      <div className="flex justify-center gap-10 flex-col items-center lg:flex-row">
         {reviews.map((item) => (
           <div className="bg-gray-100 rounded-2xl max-w-[400px] p-5 shadow-2xl">
             <div className="flex gap-2">
