@@ -3,12 +3,12 @@ import { ieltsFeatures } from "./data";
 
 const HeroSection = () => {
   return (
-    <div className="h-screen min-w-screen bg-gradient-to-br from-cyan-50 to-cyan-500 relative flex justify-between p-[140px]">
-      <div className="arc z-10  bg-gradient-to-tr from-cyan-300 to-white absolute -top-[700px] -left-[700px] "></div>
-      <div className="relative  z-[50]">
-        <h1>The institute that will help you to achitve you goal</h1>
+    <div className="min-h-screen min-w-screen bg-gradient-to-br from-cyan-50 to-cyan-500 relative  justify-between p-[140px] flex flex-col lg:flex-row">
+      {/* <div className="arc z-10  bg-gradient-to-tr from-cyan-300 to-white absolute -top-[700px] -left-[700px] "></div> */}
+      <div className="relative  z-[50] w-full lg:w-[50%]">
+        <h1 className="montserrat-alternates-black text-[20px] lg:text-[80px] tracking-tighter leading-7 lg:leading-24 ">The institute that will help you to achieve you goal</h1>
         <text>
-          Every probleme sdfsdf sdfj jsfl. lkjsf lkjsdf lksjflk sjf sdlf{" "}
+          Your every problem has solution here.
         </text>
 
         <div className="flex gap-4">
@@ -31,7 +31,7 @@ const HeroSection = () => {
         </div>
       </div>
       <Banner />
-      <div className="fullarc animate-pulse z-10  bg-gradient-to-tr from-cyan-300 to-white absolute bottom-[100px] right-[100px] w-[1150px]"></div>
+      {/* <div className="fullarc animate-pulse z-10  bg-gradient-to-tr from-cyan-300 to-white absolute bottom-[100px] right-[100px] w-[1150px]"></div> */}
     </div>
   );
 };

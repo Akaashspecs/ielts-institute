@@ -2,8 +2,8 @@ import { heroData, ielts } from "./data";
 
 const Banner = () => {
   return (
-    <div className="relative  z-20 ">
-      <div className="bg-white w-fit flex rounded-3xl  relative">
+    <div className="relative  z-20 w-[50%] ">
+      <div className="bg-white  flex rounded-3xl  relative shadow-2xl ">
         <div className="w-[80px] relati h-[70%] bg-cyan-100 flex flex-col items-center text-4xl gap-5 font-extrabold pt-5">
           {ielts.map((item) => (
             <div>{item}</div>
@@ -33,7 +33,7 @@ const Banner = () => {
             <div></div>
           </div>
         </div>
-        <div className="w-[300px] ">
+        {/* <div className="w-[300px] ">
           <img
             src="/student.webp"
             className="max-w-[100%] h-[50%] object-cover"
@@ -57,9 +57,9 @@ const Banner = () => {
               'Always choose your happiness'
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
-      <div className="h-fit w-[350px] bg-white rounded-2xl overflow-hidden p-4 mt-10 ">
+      <div className="h-fit relative w-[350px] bg-white rounded-2xl overflow-hidden p-4 mt-10 ">
         <div className="flex justify-between">
           <text className=" font-bold">User Profile</text>
           <text className="bg-gray-200 px-3 rounded-md ">+ Add a profile</text>
