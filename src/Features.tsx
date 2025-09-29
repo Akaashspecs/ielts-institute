@@ -7,7 +7,7 @@ const Features = () => {
       <div className="flex flex-col gap-10  justify-center items-center p-10">
         {features.map((item, i) => (
           <div
-            className={`flex flex-col md:flex-row md:max-w-[900px] bg-blue-100 rounded-2xl overflow-hidden max-w-[400px] shadow-2xl ${
+            className={`flex flex-col md:flex-row md:max-w-[900px] bg-gray-50 rounded-2xl overflow-hidden max-w-[400px] shadow-2xl ${
               i === 1 && "md:flex-row-reverse"
             }`}
           >

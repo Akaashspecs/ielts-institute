@@ -1,3 +1,4 @@
+import ContactForm from "./ContactForm";
 import Features from "./Features";
 import Footer from "./Footer";
 import Header from "./Header";
@@ -7,10 +8,11 @@ import Review from "./Review";
 function App() {
   return (
     <>
-      <div className="">
+      <div className="w-screen">
         <Header />
         <HeroSection />
         <Features />
+        <ContactForm />
         <Review />
 
         <Footer />

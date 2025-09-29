@@ -40,11 +40,11 @@ const Footer = () => {
               ABOUT
             </div>
             <div className="text-white my-3 hidden sm:flex">
-              Australian Bakery is your one-stop destination for freshly baked
-              delights that combine tradition with innovation. Renowned for its
-              wide range of cakes, bread, cookies, and snacks, Atul Bakery is
-              committed to delivering high-quality products made with love and
-              precision.
+              An IELTS Institute is a training center that prepares students and
+              professionals for the IELTS (International English Language
+              Testing System) exam. This exam tests English proficiency in
+              Listening, Reading, Writing, and Speaking and is widely used for
+              study abroad, migration, and work opportunities.
             </div>
           </div>
           <div className="flex justify-between flex-wrap mt-10 gap-5 sm:gap-0">

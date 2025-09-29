@@ -10,8 +10,8 @@ export const footerLinks = [
     links: ["Our Story", "Careers", "Team", "Blog"],
   },
   {
-    title: "Products",
-    links: ["Custom Orders", "Pastries", "Cakes", "Bread"],
+    title: "Services",
+    links: ["Customer Care", "Visa Apply", "Study"],
   },
   {
     title: "Get in Touch",
